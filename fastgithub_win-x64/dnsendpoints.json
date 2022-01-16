@@ -1,0 +1,58 @@
+[
+  {
+    "host": "s3.amazonaws.com",
+    "port": 443
+  },
+  {
+    "host": "collector.githubapp.com",
+    "port": 443
+  },
+  {
+    "host": "alive.github.com",
+    "port": 443
+  },
+  {
+    "host": "objects.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "s3.amazonaws.com",
+    "port": 80
+  },
+  {
+    "host": "cn.gravatar.com",
+    "port": 443
+  },
+  {
+    "host": "raw.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "cloud.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "avatars.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "camo.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "github.com",
+    "port": 443
+  },
+  {
+    "host": "api.github.com",
+    "port": 443
+  },
+  {
+    "host": "kol-fans.fp.ps.netease.com",
+    "port": 443
+  },
+  {
+    "host": "github.githubassets.com",
+    "port": 443
+  }
+]

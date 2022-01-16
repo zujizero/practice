@@ -1,0 +1,330 @@
+2022-01-06T21:42:08.5336494+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2022-01-06T21:42:08.6428299+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2022-01-06T21:42:08.6456021+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2022-01-06T21:42:08.6463066+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2022-01-06T21:42:08.7039506+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.2，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2022-01-06T21:42:21.4580405+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2022-01-06T21:42:24.0033763+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice.git/info/refs responded 401 in 2044.3535 ms
+
+2022-01-06T21:42:25.4094739+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice.git/info/refs responded 200 in 499.078 ms
+
+2022-01-06T21:42:30.9158122+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/zujizero/practice.git/git-receive-pack responded 200 in 3330.6497 ms
+
+2022-01-06T21:42:35.3590804+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2022-01-06T21:42:36.9745155+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2022-01-06T21:42:36.9760466+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2022-01-06T21:42:36.9769204+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2022-01-06T21:42:36.9778693+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2022-01-06T21:42:36.9960291+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2022-01-06T21:42:36.9980030+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2022-01-06T21:42:36.9985084+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2022-01-06T21:42:36.9989825+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2022-01-06T21:42:37.2462505+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ responded 200 in 1864.8787 ms
+
+2022-01-06T21:42:37.8567495+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/tab-size-fix-30224561f6d0a13e045c2e9a5b1e5682.css responded 200 in 779.5941 ms
+
+2022-01-06T21:42:37.9452094+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/light-13dc275a3a314268790358e25956033c.css responded 200 in 868.0708 ms
+
+2022-01-06T21:42:37.9520247+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/environment-929333d9.js responded 200 in 696.0903 ms
+
+2022-01-06T21:42:38.0298715+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/dark-9d84afdcaac584c9465298e415004b30.css responded 200 in 952.7004 ms
+
+2022-01-06T21:42:38.0891417+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/dashboard-05f098e2.js responded 200 in 830.7947 ms
+
+2022-01-06T21:42:38.1215770+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-frameworks-33a9f629.js responded 200 in 864.6267 ms
+
+2022-01-06T21:42:38.1398809+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendor-109acc5a.js responded 200 in 882.2404 ms
+
+2022-01-06T21:42:38.1784979+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/mona-loading-default-static.svg responded 200 in 908.9555 ms
+
+2022-01-06T21:42:38.1806512+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/command-palette-fdd58c7f.js responded 200 in 922.1504 ms
+
+2022-01-06T21:42:38.2164901+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/mona-loading-default.gif responded 200 in 946.9451 ms
+
+2022-01-06T21:42:38.2534530+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/frameworks-cf0ecb10a258465cbae6d92808737d10.css responded 200 in 1176.2029 ms
+
+2022-01-06T21:42:38.2613208+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-ec89e500588bae9faafb04d438604321.css responded 200 in 1184.0265 ms
+
+2022-01-06T21:42:38.3019472+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-d96c2e38b8c3c6ec1810c42ed14a7c0e.css responded 200 in 1224.7141 ms
+
+2022-01-06T21:42:38.3403202+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-9edc40c9.js responded 200 in 1082.209 ms
+
+2022-01-06T21:42:38.4495990+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-voting-830b8108.js responded 200 in 55.311 ms
+
+2022-01-06T21:42:38.5192292+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2022-01-06T21:42:38.5214287+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2022-01-06T21:42:38.6939220+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/top_repositories responded 200 in 528.4341 ms
+
+2022-01-06T21:42:39.1620196+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 200 in 996.3499 ms
+
+2022-01-06T21:42:39.4361948+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-06T21:42:39.5451224+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/zujizero/feature_preview/indicator_check responded 304 in 1091.9066 ms
+
+2022-01-06T21:42:39.6190066+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard-feed responded 200 in 1451.9851 ms
+
+2022-01-06T21:42:39.6515719+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/top_repositories responded 200 in 1485.6955 ms
+
+2022-01-06T21:42:39.6992613+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 304 in 535.9768 ms
+
+2022-01-06T21:42:39.8884040+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.githubapp.com:443->[18.205.42.156, 3.83.77.125, 54.87.131.65]
+
+2022-01-06T21:42:40.1196250+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2022-01-06T21:42:40.1210341+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2022-01-06T21:42:40.3016514+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice/hovercard responded 200 in 474.4252 ms
+
+2022-01-06T21:42:41.2031425+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/96472089 responded 502 in 3519.8368 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-01-06T21:42:41.2032581+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/96472089/ws responded 502 in 2370.9166 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-01-06T21:42:41.2839485+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/codespaces-01d7cab0.js responded 200 in 60.1592 ms
+
+2022-01-06T21:42:41.7588896+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/repositories-0f8c44e9.js responded 200 in 534.8674 ms
+
+2022-01-06T21:42:41.8014940+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice responded 200 in 1678.4673 ms
+
+2022-01-06T21:42:42.1152067+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 400 in 1705.2427 ms
+
+2022-01-06T21:42:42.3640580+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/zujizero/feature_preview/indicator_check responded 304 in 452.9173 ms
+
+2022-01-06T21:42:42.4050345+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice/overview_actions/main responded 200 in 478.5712 ms
+
+2022-01-06T21:42:42.4148832+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice/security/overall-count responded 200 in 488.972 ms
+
+2022-01-06T21:42:42.4222503+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice/show_partial responded 200 in 495.8167 ms
+
+2022-01-06T21:42:42.4878264+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice/tree-commit/0bc5625700ac4538686fecb3917b27bf15d06d07 responded 200 in 560.9792 ms
+
+2022-01-06T21:42:42.5193015+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/optimizely-f7f30a06.js responded 200 in 712.8349 ms
+
+2022-01-06T21:42:42.8696821+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice/hovercards/citation/sidebar_partial responded 204 in 942.2124 ms
+
+2022-01-06T21:42:42.8754750+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice/file-list/main responded 200 in 948.2323 ms
+
+2022-01-06T21:42:42.8936880+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice/topic_suggestions responded 200 in 966.4093 ms
+
+2022-01-06T21:42:42.9090709+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice/used_by_list responded 200 in 981.4328 ms
+
+2022-01-06T21:42:43.0017424+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice/commit/0bc5625700ac4538686fecb3917b27bf15d06d07/rollup responded 200 in 498.5894 ms
+
+2022-01-06T21:42:46.4282516+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/96472089 responded 200 in 4621.6629 ms
+
+2022-01-06T21:42:46.9626844+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/96472089 responded 200 in 4465.7682 ms
+
+2022-01-06T21:42:50.0586582+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.githubapp.com->127.0.0.1
+
+2022-01-06T21:42:50.0609520+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.githubapp.com->127.0.0.1
+
+2022-01-06T21:42:50.2885548+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/96472089/menu responded 200 in 481.1044 ms
+
+2022-01-06T21:42:50.5744449+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 400 in 515.9239 ms
+
+2022-01-06T21:42:51.8881671+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.githubapp.com/github/collect responded 204 in 1374.6655 ms
+
+2022-01-06T21:42:52.3737238+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/96472089/ws responded 101 in 10416.9859 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-01-06T21:42:52.5822615+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 1132.8634 ms
+
+2022-01-06T21:42:52.8866201+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/96472089 responded 200 in 207.7695 ms
+
+2022-01-06T21:42:52.9387132+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/96472089 responded 200 in 251.9324 ms
+
+2022-01-06T21:42:52.9804780+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero responded 200 in 1528.4855 ms
+
+2022-01-06T21:42:53.4653936+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/zujizero/feature_preview/indicator_check responded 304 in 437.1815 ms
+
+2022-01-06T21:42:55.1716057+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/profile-606a8b2b.js responded 502 in 2759.2049 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-01-06T21:42:55.1730655+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/96472089/ws responded 101 in 2126.8856 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+

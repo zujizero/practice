@@ -1,0 +1,36 @@
+2022-01-16T21:49:16.1750863+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2022-01-16T21:49:16.2686433+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2022-01-16T21:49:16.2720749+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2022-01-16T21:49:16.2739166+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2022-01-16T21:49:16.3550114+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.2，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2022-01-16T21:49:50.7326020+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-16T21:49:51.0528454+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.110.133]
+
+2022-01-16T21:50:12.7673450+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-16T21:50:13.2169440+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.110.166, 52.216.114.245]
+

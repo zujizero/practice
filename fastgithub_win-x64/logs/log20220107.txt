@@ -1,0 +1,44 @@
+2022-01-07T21:47:08.0887040+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2022-01-07T21:47:08.1930945+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2022-01-07T21:47:08.1952265+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2022-01-07T21:47:08.1971997+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2022-01-07T21:47:08.2624058+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.2，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2022-01-07T21:47:42.5379348+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-07T21:47:42.9186712+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[192.30.255.116]
+
+2022-01-07T21:47:47.7073855+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2022-01-07T21:47:50.4433420+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice.git/info/refs responded 401 in 2233.1788 ms
+
+2022-01-07T21:47:51.8239551+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice.git/info/refs responded 200 in 470.5018 ms
+
+2022-01-07T21:47:55.7206565+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/zujizero/practice.git/git-receive-pack responded 200 in 2243.9875 ms
+

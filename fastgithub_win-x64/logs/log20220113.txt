@@ -1,0 +1,1600 @@
+2022-01-13T20:23:18.7788162+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2022-01-13T20:23:18.9380200+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2022-01-13T20:23:18.9410580+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2022-01-13T20:23:18.9429076+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2022-01-13T20:23:19.0690795+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.2，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2022-01-13T20:23:50.3273887+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:23:50.8886650+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.112.26]
+
+2022-01-13T20:24:10.2625923+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2022-01-13T20:24:12.6010148+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:24:13.8869939+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice.git/info/refs responded 401 in 2482.9625 ms
+
+2022-01-13T20:24:15.9007612+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero/practice.git/info/refs responded 200 in 498.4183 ms
+
+2022-01-13T20:24:17.7523680+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.240, 192.0.80.239, 192.0.80.241]
+
+2022-01-13T20:24:20.9123079+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/zujizero/practice.git/git-receive-pack responded 200 in 2438.4804 ms
+
+2022-01-13T20:24:41.9356365+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:24:42.3807593+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:80->[52.217.160.168, 52.217.172.48]
+
+2022-01-13T20:25:08.6103076+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:25:09.0821818+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[192.30.255.116, 140.82.121.6]
+
+2022-01-13T20:25:30.6256409+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:25:31.1260426+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.githubapp.com:443->[52.21.98.87, 34.204.159.156, 34.233.181.244]
+
+2022-01-13T20:25:52.4423229+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:25:52.9237355+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.4]
+
+2022-01-13T20:26:15.1083422+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:26:15.3120804+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.111.154, 185.199.109.154, 185.199.108.154]
+
+2022-01-13T20:26:37.5035526+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:26:37.7183750+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T20:26:59.3067524+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:26:59.5313879+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T20:27:21.0129968+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:27:21.4770317+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.103.166, 52.217.137.152]
+
+2022-01-13T20:27:42.6784153+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:27:42.8942037+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T20:28:04.5830567+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:28:04.7530822+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T20:28:26.5478013+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:28:26.6917813+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cloud.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T20:28:50.2204301+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:28:50.6808129+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.114.26, 140.82.112.26]
+
+2022-01-13T20:29:11.6907539+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:29:12.2059723+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:80->[52.217.160.168, 52.217.172.48, 52.216.200.229]
+
+2022-01-13T20:29:34.2892536+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:29:34.8363227+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[192.30.255.116, 140.82.121.6, 140.82.121.5]
+
+2022-01-13T20:29:57.1693949+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:29:57.6280693+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.3, 140.82.121.4]
+
+2022-01-13T20:30:20.1095702+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:30:20.5521166+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.103.166, 52.217.68.206, 52.217.4.54]
+
+2022-01-13T20:30:22.1880600+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2022-01-13T20:30:22.1965045+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2022-01-13T20:30:22.2042802+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2022-01-13T20:30:22.2101699+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2022-01-13T20:30:23.2591187+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ responded 200 in 1001.1381 ms
+
+2022-01-13T20:30:23.2825900+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2022-01-13T20:30:23.2881548+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2022-01-13T20:30:23.3322014+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2022-01-13T20:30:23.3345589+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2022-01-13T20:30:23.3355780+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2022-01-13T20:30:23.3366839+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2022-01-13T20:30:23.5100884+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/light-13dc275a3a314268790358e25956033c.css responded 200 in 212.6143 ms
+
+2022-01-13T20:30:23.5173238+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/dark-9d84afdcaac584c9465298e415004b30.css responded 200 in 219.1954 ms
+
+2022-01-13T20:30:23.5217511+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/home-a38785a7f0c6cbf783a92c9c55269eda.css responded 200 in 218.9514 ms
+
+2022-01-13T20:30:23.5260919+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/tab-size-fix-30224561f6d0a13e045c2e9a5b1e5682.css responded 200 in 224.2441 ms
+
+2022-01-13T20:30:23.5281699+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/site-40ce038f1b894576e372940bbba66d45.css responded 200 in 225.7641 ms
+
+2022-01-13T20:30:23.5512104+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/dashboard-353ab9ea.js responded 200 in 230.1317 ms
+
+2022-01-13T20:30:23.5644793+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/unsupported-6ec815c8.js responded 200 in 243.0251 ms
+
+2022-01-13T20:30:23.5733956+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/home-56b034c2.js responded 200 in 251.5689 ms
+
+2022-01-13T20:30:23.5846034+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/command-palette-f9b67dcf.js responded 200 in 262.351 ms
+
+2022-01-13T20:30:23.6010950+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/frameworks-cf0ecb10a258465cbae6d92808737d10.css responded 200 in 300.0638 ms
+
+2022-01-13T20:30:23.6155407+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/marketing-7a97e703.js responded 200 in 293.7076 ms
+
+2022-01-13T20:30:23.6157740+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-ba52a1a7f10539e3eec482f149158132.css responded 200 in 313.6747 ms
+
+2022-01-13T20:30:23.6281306+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendor-109acc5a.js responded 200 in 307.5375 ms
+
+2022-01-13T20:30:23.6454482+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/mona-loading-default.gif responded 200 in 322.7584 ms
+
+2022-01-13T20:30:23.6869962+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-0e4f3838.js responded 200 in 365.9214 ms
+
+2022-01-13T20:30:23.6877499+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/command-runner-d89cf796.js responded 200 in 346.3808 ms
+
+2022-01-13T20:30:23.8758451+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/environment-c4bfd30a.js responded 200 in 555.4823 ms
+
+2022-01-13T20:30:23.9027257+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/mona-loading-default-static.svg responded 200 in 580.3479 ms
+
+2022-01-13T20:30:23.9673409+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-frameworks-b3f091d7.js responded 200 in 646.6948 ms
+
+2022-01-13T20:30:23.9673418+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/webgl-globe-df1be941.js responded 200 in 645.4881 ms
+
+2022-01-13T20:30:24.0653460+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-cookies-48f59dde.js responded 200 in 49.1268 ms
+
+2022-01-13T20:30:24.0720619+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-edit-ca75799c.js responded 200 in 54.7806 ms
+
+2022-01-13T20:30:24.0753316+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-tag-input-826c3ba1.js responded 200 in 55.648 ms
+
+2022-01-13T20:30:24.0788900+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-voting-830b8108.js responded 200 in 57.6735 ms
+
+2022-01-13T20:30:24.0839113+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-notification-list-focus-028f6594.js responded 200 in 67.7166 ms
+
+2022-01-13T20:30:24.0838846+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-responsive-underlinenav-31718464.js responded 200 in 64.2099 ms
+
+2022-01-13T20:30:24.1309777+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-copy-8e2b71a2.js responded 200 in 67.784 ms
+
+2022-01-13T20:30:24.2030637+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2022-01-13T20:30:24.2050178+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2022-01-13T20:30:24.2157521+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-prefetched-provider-3b2ea54e.js responded 200 in 154.4861 ms
+
+2022-01-13T20:30:24.4043324+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-color-modes-c614803b.js responded 200 in 338.7563 ms
+
+2022-01-13T20:30:24.4615117+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-64935922ee26ff23079e28a3f3fdd105.css responded 200 in 1160.1548 ms
+
+2022-01-13T20:30:24.5267103+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/top_repositories responded 200 in 448.5365 ms
+
+2022-01-13T20:30:24.7215505+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 200 in 643.3714 ms
+
+2022-01-13T20:30:24.7961904+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/top_repositories responded 200 in 717.7181 ms
+
+2022-01-13T20:30:24.7964712+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard-feed responded 200 in 717.449 ms
+
+2022-01-13T20:30:24.7968205+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/zujizero/feature_preview/indicator_check responded 304 in 633.1959 ms
+
+2022-01-13T20:30:25.0871606+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 304 in 361.1975 ms
+
+2022-01-13T20:30:25.9122679+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/96472089 responded 200 in 607.7768 ms
+
+2022-01-13T20:30:27.0686257+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/96472089/menu responded 200 in 377.5218 ms
+
+2022-01-13T20:30:27.6605452+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.githubapp.com->127.0.0.1
+
+2022-01-13T20:30:27.6630828+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2022-01-13T20:30:27.6647209+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.githubapp.com->127.0.0.1
+
+2022-01-13T20:30:27.6669099+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2022-01-13T20:30:29.6388403+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 400 in 958.8539 ms
+
+2022-01-13T20:30:29.6836625+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/96472089/ws responded 101 in 4747.3745 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-01-13T20:30:29.7700852+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/profile-606a8b2b.js responded 200 in 49.0118 ms
+
+2022-01-13T20:30:30.0866744+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/zujizero responded 200 in 1284.1667 ms
+
+2022-01-13T20:30:30.1150789+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 1317.3456 ms
+
+2022-01-13T20:30:30.1928326+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.githubapp.com/github/collect responded 204 in 1398.9408 ms
+
+2022-01-13T20:30:30.2380662+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/96472089 responded 200 in 359.6281 ms
+
+2022-01-13T20:30:30.2962710+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-profile-bc547e22.js responded 200 in 48.853 ms
+
+2022-01-13T20:30:30.4010264+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/96472089 responded 200 in 522.6252 ms
+
+2022-01-13T20:30:30.6613080+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/zujizero/feature_preview/indicator_check responded 304 in 355.8975 ms
+
+2022-01-13T20:30:36.1417279+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/96472089/ws responded 101 in 5723.8248 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-01-13T20:30:43.6060828+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:30:48.8006271+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.239, 192.0.80.241, 192.0.80.240]
+
+2022-01-13T20:31:10.8412648+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:31:11.2892163+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.githubapp.com:443->[34.233.181.244, 52.21.98.87, 23.22.22.50]
+
+2022-01-13T20:31:33.6351022+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:31:33.6937288+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.111.154, 185.199.108.154, 185.199.109.154]
+
+2022-01-13T20:32:02.7239456+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:32:03.7779564+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.111.133, 185.199.110.133, 185.199.109.133]
+
+2022-01-13T20:32:25.9048379+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:32:25.9072924+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects.githubusercontent.com:443->[185.199.111.133, 185.199.110.133, 185.199.109.133]
+
+2022-01-13T20:32:47.4136940+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:32:47.4167945+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.111.133, 185.199.110.133, 185.199.109.133]
+
+2022-01-13T20:33:13.8796034+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:33:13.8819717+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.111.133, 185.199.110.133, 185.199.109.133]
+
+2022-01-13T20:33:35.3477311+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:33:35.3594072+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cloud.githubusercontent.com:443->[185.199.111.133, 185.199.110.133, 185.199.109.133]
+
+2022-01-13T20:34:02.3308873+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:34:02.8149459+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.112.25, 140.82.114.26]
+
+2022-01-13T20:34:25.6046548+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:34:48.4254103+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:35:10.4821483+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:35:37.0342871+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:35:37.4689010+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:80->[52.217.94.22, 52.217.132.232, 52.217.103.166]
+
+2022-01-13T20:35:58.8700321+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:36:21.8949138+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:36:44.7523280+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:37:07.2059664+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:37:08.3982249+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2022-01-13T20:37:29.4065443+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:37:30.1037118+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.132.232, 52.216.110.125, 52.217.137.152]
+
+2022-01-13T20:37:51.4986116+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:37:51.6940446+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2022-01-13T20:38:14.1645038+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:38:14.3734699+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2022-01-13T20:38:35.9615902+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:38:36.1381332+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cloud.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2022-01-13T20:38:58.6897406+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:39:24.6714362+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:39:25.1477111+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[13.230.158.120, 192.30.255.117, 192.30.255.116]
+
+2022-01-13T20:39:47.2641937+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:39:48.7286240+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3, 140.82.113.3]
+
+2022-01-13T20:40:10.2668610+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:40:10.7023982+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.241, 192.0.80.239, 192.0.80.240]
+
+2022-01-13T20:40:32.2962466+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:40:32.8214643+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:80->[52.217.94.22, 52.217.132.232, 52.217.82.22]
+
+2022-01-13T20:40:58.4357944+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:40:58.9263904+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.githubapp.com:443->[34.204.159.156, 23.22.22.50, 52.21.98.87]
+
+2022-01-13T20:41:22.3282102+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:41:23.3856571+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.111.154, 185.199.110.154, 185.199.109.154]
+
+2022-01-13T20:41:44.9643541+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:41:44.9662630+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2022-01-13T20:42:06.4628044+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:42:27.9913974+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:42:28.2155788+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.108.133]
+
+2022-01-13T20:42:53.7680086+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:42:53.7701550+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.108.133]
+
+2022-01-13T20:43:15.2878258+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:43:15.2889839+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cloud.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.108.133]
+
+2022-01-13T20:43:36.9830062+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:43:37.4833811+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.216.177.21, 52.217.68.78, 52.216.110.125]
+
+2022-01-13T20:44:00.2303269+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:44:25.9728183+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:44:26.4551403+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.113.25, 140.82.114.25]
+
+2022-01-13T20:44:47.9574072+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:45:14.2315571+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:45:19.4051878+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:80->[52.217.68.78, 52.217.132.232, 52.217.94.22]
+
+2022-01-13T20:45:41.0900090+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:45:41.5881322+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[13.230.158.120, 192.30.255.116, 192.30.255.117]
+
+2022-01-13T20:46:07.2248388+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:46:07.7093097+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.githubapp.com:443->[34.233.181.244, 52.21.98.87, 23.22.22.50]
+
+2022-01-13T20:46:29.4239545+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:46:29.6175428+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.109.154, 185.199.111.154, 185.199.110.154]
+
+2022-01-13T20:46:51.2414904+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:46:51.4025678+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.108.133]
+
+2022-01-13T20:47:16.9714228+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:47:17.1513491+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.108.133]
+
+2022-01-13T20:47:38.3948219+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:47:46.9413298+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.139.40, 52.216.185.125, 52.216.177.21]
+
+2022-01-13T20:48:08.5143355+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:48:09.5792387+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.109.133, 185.199.108.133, 185.199.110.133]
+
+2022-01-13T20:48:31.1804150+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:48:31.3284923+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.109.133, 185.199.108.133, 185.199.110.133]
+
+2022-01-13T20:48:52.8869464+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:48:53.0505508+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cloud.githubusercontent.com:443->[185.199.109.133, 185.199.108.133, 185.199.110.133]
+
+2022-01-13T20:49:15.6189427+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:49:16.1035495+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4, 140.82.121.3]
+
+2022-01-13T20:49:37.5758959+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:49:38.1347070+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.112.26, 140.82.113.25]
+
+2022-01-13T20:49:59.7549199+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:50:04.9179164+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.240, 192.0.80.242, 192.0.80.239]
+
+2022-01-13T20:50:26.3063709+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:50:26.4793235+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[13.230.158.120, 192.30.255.116, 140.82.121.5]
+
+2022-01-13T20:50:48.0708133+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:51:09.7825270+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:51:31.2986508+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:51:31.3001516+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.109.133, 185.199.108.133, 185.199.110.133]
+
+2022-01-13T20:51:52.7574567+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:51:52.7591332+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects.githubusercontent.com:443->[185.199.109.133, 185.199.108.133, 185.199.110.133]
+
+2022-01-13T20:52:14.1563404+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:52:35.6141244+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:52:57.1946729+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:53:18.9195202+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:53:24.1446810+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:80->[52.217.161.24, 52.217.68.78]
+
+2022-01-13T20:53:45.1556350+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:53:45.7382432+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.167.24, 52.217.68.78, 52.217.161.24]
+
+2022-01-13T20:54:08.4233468+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:54:08.8689570+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.114.25, 140.82.112.26]
+
+2022-01-13T20:54:34.3121244+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:54:56.5301737+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:54:57.0688380+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3, 140.82.114.4]
+
+2022-01-13T20:55:18.7838778+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:55:23.9642259+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.242, 192.0.80.239, 192.0.80.240]
+
+2022-01-13T20:55:45.5238998+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:55:45.9750614+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.githubapp.com:443->[23.22.22.50, 52.21.98.87, 34.233.181.244]
+
+2022-01-13T20:56:07.3301770+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:56:07.4060160+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.110.154, 185.199.108.154, 185.199.111.154]
+
+2022-01-13T20:56:28.9351704+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:56:30.0179330+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2022-01-13T20:56:51.7174025+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:56:51.7190656+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2022-01-13T20:57:13.3294214+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:57:15.6566718+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2022-01-13T20:57:37.5159980+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:57:37.5170991+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2022-01-13T20:57:59.0907117+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:57:59.0919918+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cloud.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2022-01-13T20:58:20.5632684+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:58:20.9767695+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.202.72, 54.231.130.56, 52.217.167.24]
+
+2022-01-13T20:58:42.9815423+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:58:43.4332829+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:80->[52.217.161.24, 54.231.130.56, 52.216.249.222]
+
+2022-01-13T20:59:05.0519412+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:59:05.5246471+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[13.230.158.120, 192.30.255.116, 140.82.114.6]
+
+2022-01-13T20:59:27.0399581+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:59:27.2459532+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3]
+
+2022-01-13T20:59:48.4970567+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T20:59:48.9849271+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.114.25, 140.82.113.25]
+
+2022-01-13T21:00:14.5205353+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:00:41.1403534+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:01:02.8485067+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:01:24.4583852+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:01:46.0392906+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:02:07.8819238+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:02:08.2981983+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.167.24, 52.217.70.78, 52.217.202.72]
+
+2022-01-13T21:02:29.8239609+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:02:51.3142132+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:03:12.7817669+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:03:35.5709446+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:03:36.0201072+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.3, 140.82.121.3]
+
+2022-01-13T21:03:57.0264048+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:03:57.4440659+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:80->[54.231.130.128, 54.231.130.56, 52.217.161.24]
+
+2022-01-13T21:04:18.8479567+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:04:19.2582686+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[192.30.255.117, 192.30.255.116, 140.82.114.6]
+
+2022-01-13T21:04:40.6463966+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:04:41.0884614+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.113.25, 140.82.112.26]
+
+2022-01-13T21:05:02.4386429+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:05:07.6087327+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.240, 192.0.80.239, 192.0.80.242]
+
+2022-01-13T21:05:29.1356561+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:05:29.5719198+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.githubapp.com:443->[34.233.181.244, 23.22.22.50, 34.204.159.156]
+
+2022-01-13T21:05:51.0707566+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:05:51.1300410+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.108.154, 185.199.111.154, 185.199.109.154]
+
+2022-01-13T21:06:12.6608521+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:06:34.0069347+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:06:55.5719861+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:06:56.6223990+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T21:07:18.1654090+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:07:18.1669660+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T21:07:39.7324654+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:07:39.8622491+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cloud.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T21:08:01.2863534+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:08:01.7367490+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.68.86, 52.217.160.88, 52.217.136.56]
+
+2022-01-13T21:08:24.1382248+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:08:49.9754674+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:08:50.4388854+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 13.114.40.48, 140.82.113.3]
+
+2022-01-13T21:09:11.8556793+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:09:12.3230434+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.113.26, 140.82.112.25]
+
+2022-01-13T21:09:33.7757667+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:10:00.4943722+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:10:22.0641675+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:10:43.6076131+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:10:43.6098686+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T21:11:05.1327634+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:11:05.3330237+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T21:11:26.6967248+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:11:48.4337259+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:12:09.8793303+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:12:10.9362867+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cloud.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.111.133]
+
+2022-01-13T21:12:32.4097367+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:12:37.5798687+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:80->[54.231.130.128, 52.217.70.78, 54.231.129.16]
+
+2022-01-13T21:12:58.5869564+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:13:03.7864574+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.68.86, 52.217.160.88, 52.217.70.78]
+
+2022-01-13T21:13:25.7894454+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:13:49.3191065+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:13:54.5221370+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.242, 192.0.80.240, 192.0.80.241]
+
+2022-01-13T21:14:16.0908081+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:14:16.5627013+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[192.30.255.117, 140.82.121.6, 140.82.121.5]
+
+2022-01-13T21:14:38.0817813+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:14:38.5184937+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.githubapp.com:443->[34.233.181.244, 23.22.22.50, 52.21.98.87]
+
+2022-01-13T21:15:00.0916267+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:15:00.3314206+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 13.114.40.48]
+
+2022-01-13T21:15:21.8107879+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:15:22.0503204+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.110.154, 185.199.111.154, 185.199.109.154]
+
+2022-01-13T21:15:43.5996112+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:15:43.7933412+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.111.133]
+
+2022-01-13T21:16:05.2147783+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:16:05.2154807+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.111.133]
+
+2022-01-13T21:16:26.7146834+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:16:27.1265110+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.160.88, 52.217.201.200, 52.217.68.86]
+
+2022-01-13T21:16:48.6647035+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:16:48.8000538+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.111.133]
+
+2022-01-13T21:17:10.2265848+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:17:11.4659252+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.108.133]
+
+2022-01-13T21:17:37.0094499+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:17:37.0628413+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cloud.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T21:17:58.5804036+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:17:59.0671914+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.113.26, 140.82.114.25]
+
+2022-01-13T21:18:21.4961277+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:18:21.9580656+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 13.114.40.48, 140.82.121.3]
+
+2022-01-13T21:18:43.3842440+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:18:43.8284316+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:80->[54.231.129.16, 52.216.9.221, 52.216.170.229]
+
+2022-01-13T21:19:05.3929416+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:19:05.7747398+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[192.30.255.117, 192.30.255.116, 140.82.121.5]
+
+2022-01-13T21:19:27.3465747+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:19:32.5410355+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.242, 192.0.80.239, 192.0.80.240]
+
+2022-01-13T21:19:57.9185036+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:19:58.3350176+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.githubapp.com:443->[52.21.98.87, 23.22.22.50, 34.233.181.244]
+
+2022-01-13T21:20:19.7767615+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:20:41.2782645+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:20:41.2789613+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T21:21:02.8233758+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:21:02.8250404+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T21:21:24.3941470+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:21:24.7174561+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T21:21:46.2879555+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:21:46.2926948+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.110.133]
+
+2022-01-13T21:22:07.7757154+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:22:08.0095072+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cloud.githubusercontent.com:443->[185.199.111.133, 185.199.111.154, 185.199.109.133]
+
+2022-01-13T21:22:29.3103190+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:22:29.7162272+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.199.184, 52.217.225.40, 52.216.143.30]
+
+2022-01-13T21:22:52.1395090+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:22:52.3482173+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.114.25]
+
+2022-01-13T21:23:13.3505943+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:23:13.7849470+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:80->[54.231.129.16, 52.217.10.54, 52.216.111.29]
+
+2022-01-13T21:23:35.3370333+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:23:57.2849085+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:23:57.7561351+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3]
+
+2022-01-13T21:24:19.2733265+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:24:45.8661194+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:25:07.4270543+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:25:07.4279782+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.111.154, 185.199.109.154, 185.199.108.154]
+
+2022-01-13T21:25:28.7344234+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:25:28.7902066+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.111.133]
+
+2022-01-13T21:25:50.3366167+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:25:50.4981049+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.111.133]
+
+2022-01-13T21:26:11.9288269+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:26:11.9327145+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.111.133]
+
+2022-01-13T21:26:33.4852172+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:26:33.4861660+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.111.133]
+
+2022-01-13T21:26:55.0164204+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:26:55.4257160+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.65.198, 52.217.199.184, 52.217.161.96]
+
+2022-01-13T21:27:16.9587209+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:27:18.0150513+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cloud.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.111.133]
+
+2022-01-13T21:27:40.4983638+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:27:41.9556067+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.113.25, 140.82.113.26]
+
+2022-01-13T21:28:03.3897314+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:28:28.9895838+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:28:34.1255475+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.242, 192.0.80.240, 192.0.80.239]
+
+2022-01-13T21:28:55.5936320+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:28:56.1069942+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[192.30.255.116, 140.82.114.5, 140.82.121.5]
+
+2022-01-13T21:29:17.4665978+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.githubapp.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:29:17.9388921+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.githubapp.com:443->[34.233.181.244, 23.22.22.50, 52.21.98.87]
+
+2022-01-13T21:29:39.5188153+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:29:39.6745408+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.108.154, 185.199.110.154, 185.199.111.154]
+
+2022-01-13T21:30:01.0725610+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:30:22.7710816+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:30:44.3087349+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:30:49.5184129+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.65.198, 54.231.198.16, 52.217.199.184]
+
+2022-01-13T21:31:11.1032545+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:31:11.1595370+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.109.133]
+
+2022-01-13T21:31:32.6262678+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:31:32.9138004+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.109.133]
+
+2022-01-13T21:31:53.9197107+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:31:54.3519278+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:80->[52.216.111.29, 52.217.10.54, 52.216.177.45]
+
+2022-01-13T21:32:15.8003361+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cloud.githubusercontent.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:32:15.9398577+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cloud.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.109.133]
+
+2022-01-13T21:32:38.4958927+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2022-01-13T21:32:38.9779412+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.3, 140.82.121.3]
+
+2022-01-13T21:33:04.5962280+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@8.8.8.8:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
